@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+android:layout_height="250dp"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+
+>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        android:id="@+id/bookname"
+        android:text="Bookname"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DifficultyLevel"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/bookname"
+        android:id="@+id/level"
+
+        android:textColor="#656467"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Description"
+        android:id="@+id/longtext"
+        android:layout_below="@id/level"
+        android:layout_toRightOf="@id/image"
+        android:textColor="#79777C"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:background="#FB8C00"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="Show Online" />
+
+</RelativeLayout>
